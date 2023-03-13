@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-securty {
+    background-color: black;
+    height: 65px;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    padding-left: 140px;
+    
+}
+.header-logo {
+    margin:30px;
+    padding-left:110px;   
+    
+}
+
+
+
+.help1-securty {
+    font-size: 18px;
+    color:white;
+    float: left;
+    text-decoration: none;
+    white-space: nowrap;
+    height: 20px;
+}
+
+ .button-securty {
+   padding-left:30rem ;
+   width: 700px;
+   height: 35px;
+   display: flex;
+   gap: 5px;
+
+
+  
+}
+.sign-securty {
+    background-color: black;
+    color:white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    width: 140px;
+    height: 30px;
+    font-size: 12px;
+    margin-left: 15rem;
+    font-weight: bold;
+}
+.sign:hover {
+    background-color: #d5d4d1;
+    color:black;
+}
+.sign-1-securty {
+    background-color: red;
+    color:white;
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+    margin-left: 1rem;
+    font-weight: bold;
+}
+.sign-1:hover {
+    background-color:#cb1d1d;
+    color:white;
+}
+
+.menu-securty{
+    width: 100%;
+    height: 3rem;
+    background-color: white;
+}
+.menu-help-write {
+    display: flex;
+    padding-top: 30px;
+    align-items: center;
+    padding-left: 130px;
+   font-size: 15px;
+    
+    
+}
+.securty-paragraph{
+    color:red;
+
+}
+.menu-link{
+    align-items: center;
+    text-decoration: none;
+    
+   
+}
+.menu-direcction{
+  display: flex;
+  align-items: center;
+  float: left;
+
+}
+.securty-btn{
+    margin-left: 57rem;
+    width: 110px;
+    height: 35px;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    font-weight: bold;
+}
+.securty-menu{
+    height: 125rem;
+    background-color: white;
+
+}
+
+.securty-menu-title{
+    padding-left: 130px;
+    padding-top: 50px;
+}
+.securty-menu-paragraph{
+    padding-left: 130px;
+   
+
+
+}
+.securty-menu-h3{
+    padding-left: 130px;
+}
+
+.menu-li {
+    margin-left: 170px;
+    line-height: 25px;
+    font-size: 17px;
+}

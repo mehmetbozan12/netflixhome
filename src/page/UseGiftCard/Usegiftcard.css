@@ -1,0 +1,99 @@
+.usegiftcard-home{
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/8f12b4f0-a894-4d5b-9c36-5ba391c63fbe/7d46b779-cf9e-4ffe-96be-6c47fb6d6dc4/TR-tr-20230320-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    height: 45rem;
+    width: 100%;
+    overflow-x: hidden;
+   
+ 
+
+}
+.header-usegift{
+    display: flex;
+    
+    justify-content:space-between;
+
+}
+.usegift-logo {
+    width:120px;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+.header-home-sigin{
+    margin-top: 30px;
+    margin-right: 40px;
+}
+.bg-image-use{
+    zoom: 1;
+    background-image: linear-gradient(0deg,rgba(0,0,0,.8) 50%,transparent 100%) ;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: auto;
+    z-index: 10;
+
+}
+
+.usegift-title{
+    color:white;
+    font-weight: bold;
+    padding-top: 5rem;
+    padding-left: 40px;
+    font-size: 55px;
+
+}
+.usegift-paragraph{
+    color: white;
+    line-height: 80px;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 40px;
+}
+.usegift-btn{
+  
+ display: flex;
+ flex-direction: column;
+
+}
+.usegift-input{
+    margin-top: -10px;
+    margin-left: 40px;
+    height: 45px;
+    width: 18rem;
+    color:#333333b6;
+    padding-left: 10px;
+    font-size: 20px;
+    background-color: unset;
+    border:1px solid gray;
+    color: white;
+}
+.usegift-button{
+    margin-top: 20px;
+    margin-left: 40px;
+    height: 50px;
+    background-color: red;
+    color:white;
+    width: 130px;
+    font-size: 20px;
+    border-radius: 3px;
+
+}
+.usegift-links{
+    padding-top: 50px;
+}
+.usegift-link{
+    text-decoration: none;
+    color:#a7a3a3;
+    padding-left: 40px;
+    padding-top: 40px;
+
+}
+.usegift-link-paragraph{
+    color:#a7a3a3;
+    padding-left: 40px;
+    padding-top: 20px;
+    font-size: 14px;
+}
+.link-information{
+    color:rgba(77, 77, 204, 0.815);
+}

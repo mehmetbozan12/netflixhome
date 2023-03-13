@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-contactus {
+    background-color: black;
+    height: 65px;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    margin-left: 400px;
+    gap:20px
+   
+    
+}
+.header-logo {
+    margin:30px;
+    padding-left: 110px;
+      
+    
+}
+
+
+
+.help1-contactus {
+    font-size: 18px;
+    color:white;
+    float: left;
+    text-decoration: none;
+    white-space: nowrap;
+    height: 20px;
+}
+
+ .button-contactus {
+   padding-left:3rem ;
+   width: 700px;
+   height: 35px;
+   display: flex;
+   gap: 5px;
+
+
+  
+}
+.sign-contactus {
+    background-color: black;
+    color:white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    width: 140px;
+    height: 30px;
+    font-size: 12px;
+    margin-left: 10rem;
+    font-weight: bold;
+}
+.sign-contactus:hover {
+    background-color: #d5d4d1;
+    color:black;
+}
+.sign-1-securty {
+    background-color: red;
+    color:white;
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+    margin-left: 1rem;
+    font-weight: bold;
+}
+.sign-1-securty:hover {
+    background-color:#cb1d1d;
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+.contactus-menu{
+    height: 35rem;
+    background-color: white;
+
+}
+.contactus-title{
+    padding-left: 25rem;
+    padding-top: 35px;
+    font-size: 38px;
+    font-weight:750;
+
+}
+.contactus-paragraph{
+    padding-left: 25rem;
+    padding-top: 30px;
+    font-weight: 600;
+}
+.contactus-input{
+    margin-left: 25rem;
+    margin-top: 20px;
+    height: 40px;
+    width:43rem;
+    padding-left: 15px;
+    border-radius: 3px;
+    border:1px solid gray
+}
+
+.contactus-title2{
+    padding-left: 25rem;
+    padding-top: 20px;
+}
+
+.contactus-links{
+    padding-left: 25rem;
+    padding-top: 20px;
+}
+.contactus-hr{
+   margin-top: 20px;
+   margin-bottom: 15px;
+   width: 45rem;
+   color: rgb(252, 246, 246);
+}
+
+.contactus-link{
+    text-decoration: none;
+    color:black;
+}
+.contactus-link:hover {
+    text-decoration: underline;
+}
+.direction-icon-1{
+    padding-left: 37.5rem;
+    color: red;
+    font-weight:bold;
+}
+.direction-icon-2{
+    padding-left: 35rem;
+    color: red;
+    font-weight:bold;
+}
+.direction-icon-3{
+    padding-left: 32.5rem;
+    color: red;
+    font-weight:bold;
+}
+.direction-icon-4{
+    padding-left: 32rem;
+    color: red;
+    font-weight:bold;
+}
+
+.direction-icon-5{
+    padding-left: 29.3rem;
+    color: red;
+    font-weight:bold;
+   
+}
+
+
+
+.footer-contactus {
+    background-color:black;
+    color:black;
+    margin-top:0px;;
+    margin-top: 10px;
+    padding-left:25rem;
+    height:12rem;
+    color:white;
+    background: linear-gradient(10deg,rgba(229,9,20,0) 58%,#e50914 128%),#000
+    
+}
+
+ .footer-2 {
+    height: 20rem;
+
+ }
+ .select{ 
+    padding-top: 30px;
+ }
+ .select1 {
+   
+    height: 50px;
+    width:200px;
+    font-size: 20px;
+    color:#d5d4d1;
+    padding-left: 10px;
+    background-color: #2b2b2a;
+ }
+
+
+ .footer-links{
+    display: flex;
+    gap:20px;
+    padding-top: 30px;
+    margin-right: 60px;
+    font-size: 15px;
+    
+ }
+
+ .links {
+    list-style: none; 
+   
+ }
+ .lnk {
+    color:#d5d4d1;
+    text-decoration: none;
+    
+ }
+ .lnk:hover {
+   text-decoration:underline;
+ }

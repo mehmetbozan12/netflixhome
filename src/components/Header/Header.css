@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:ital,wght@0,100;1,300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    
+        font-family:Helvetica ,sans-serif;
+      
+        background-color:rgba(0, 0, 0, 0.712);
+       
+    
+}
+
+
+
+
+
+.header-home{
+
+   width: 100%;
+   color:white;
+   font-size:14px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+;
+  
+
+
+
+
+}
+.header-logo {
+    height: 36px;
+    width:90px;
+    padding-top: 15px;
+}
+.header-home-left {
+    padding-left: 60px;
+    display: flex;
+    gap:40px;
+    align-items: center;
+}
+
+.header-links {
+    font-size: 15px;
+    display: flex;
+    gap:15px;
+    list-style: none;
+    align-items: center;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.header-link {
+    text-decoration: none;
+    color:white;
+}
+.header-link :hover {
+    color:rgba(240, 248, 255, 0.745)
+   
+}
+.header-home-right{
+    display: flex;
+    margin-left: 10rem;
+    gap:20px;
+    padding-right: 50px;
+    align-items: center;
+}
+
+.header-img {
+    margin-right: 25px;
+    width:30px;
+    height: 30px;
+    border-radius: 5px;
+    object-fit: cover;
+    cursor: pointer;
+   
+}
+
+
+.profile {
+    position: relative;
+  }
+  
+  .options {
+    position: absolute;
+    top: 10px; /* İsteğe bağlı, ikon ve seçenekler arasındaki mesafeyi ayarlayabilirsiniz */
+    right: 0;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    display: none; /* İlk etapta seçenekleri gizle */
+  }
+  
+  .icon:hover + .options,
+  .options:hover {
+    display: block; /* İkon veya seçeneklere hover edildiğinde seçenekleri göster */
+  }
+  
+  
+
+

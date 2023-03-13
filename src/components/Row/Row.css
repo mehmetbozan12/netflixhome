@@ -1,0 +1,72 @@
+.row{
+ 
+    background-color: black;
+}
+.row-title {
+    margin-top: 20px;
+    color:white;
+    padding-left: 60px;
+    font-weight: bold;
+    padding-top: 30px;
+  
+    
+}
+.row-link {
+    display: flex;
+    padding-top: 15px;
+ 
+  
+}
+.row-links {
+float: left;
+display: flex;
+margin: 0;
+
+
+}
+.row-image{
+    width:300;
+    height:150px;
+    
+  
+}
+@media (min-width: 640px) { /* Küçük ekran boyutundan daha geniş ekran boyutuna geçildiğinde (sm: ekran boyutu) */
+    .row-links {
+    width: 200px;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    padding-left:60px ;
+    margin: 0;
+    }
+}
+
+.row-paragraf{
+    position: absolute;
+    top:0px;
+    padding-left: 60px;
+    left: 0;
+    width: 300px;
+    height: 150px;
+  
+}
+.row-paragraf:hover {
+    background-color: rgba(0, 0, 0, 0.574);
+    color: white;
+    width:300px;
+    height: 150px;
+    margin-left: 60px;
+
+}
+.row-prgrf {
+    white-space: normal;
+    font-size: 17px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.row-prgrf :hover {
+   
+}

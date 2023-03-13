@@ -1,0 +1,82 @@
+body {
+    
+    font-family:Helvetica ,sans-serif;
+    background: #000000;
+    overflow-x: hidden;
+}
+
+.home-footer {
+    padding-top: 30px;
+    height: 17rem;
+    background-color: rgba(0, 0, 0, 0.886);
+    width: 100%;
+}
+.content-footer{
+    display: flex;
+    gap:20px;
+    padding-left: 17rem;
+   
+}
+.footer-icon {
+    color:white;
+    font-size: 25px;
+
+}
+
+.footer-home-links{
+  display: flex;
+  gap:10rem;
+  padding-left: 17rem;
+  padding-top: 10px;
+}
+.footer-home-link{
+    color:white;
+    font-size: 15px;
+    padding-top: 10px;
+    
+
+ 
+}
+
+.footer-links{
+    list-style: none;
+    flex-direction: column;
+    line-height: 30px;
+   
+ 
+
+}
+.footer-link {
+  color:rgba(255, 255, 255, 0.634);
+   text-decoration: none;
+  
+   
+}
+.footer-link:hover {
+    text-decoration: underline;
+}
+.footer-home-button {
+    padding-left: 17rem;
+    padding-top: 30px;
+    
+}
+
+.footer-btn {
+    height: 30px;
+    width: 100px;
+    color:rgba(255, 255, 255, 0.634);
+    background-color: rgba(24, 24, 24, 0.564);
+    border: 1px solid rgb(200, 184, 184);
+    margin-left: 0px;
+    font-size: 13px;
+}
+
+.footer-title {
+    padding-left: 17rem;
+    color:rgba(255, 255, 255, 0.634);
+    padding-top: 10px;
+}
+
+.footer-btn:hover{
+    color:white;
+}

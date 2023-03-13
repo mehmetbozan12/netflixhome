@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:ital,wght@0,100;1,300&display=swap');
+
+body {
+    
+    font-family:Helvetica ,sans-serif;
+    overflow-x: hidden;
+}
+
+.main {
+    height: 800px;
+    width: 100%;
+
+}
+.bg-image {
+   max-width: 100%;
+   max-height: 100%;
+   
+
+
+}
+.main-hover {
+    position: absolute;
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(77deg,rgba(0, 0, 0, 0.892),transparent 100%);
+}
+.bg-img{
+  width: 100%; 
+  object-fit:scale-down;
+ }
+
+
+ .main-title-1{
+    color: white;
+    margin-top: -35rem;
+    margin-left: 60px;
+    position: absolute;
+
+ }
+ .main-title-2{
+    font-size: 40px;
+ }
+ @media screen and (max-width: 768px) {
+    .main-paragraf{
+      font-size: 16px;
+      position: absolute;
+    }
+    .main-button{
+        position: absolute;
+     
+    }
+    .main {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+    }
+  }
+ 
+ .main-paragraf{
+    color: white;
+    margin-top: -32rem;
+    margin-left: 60px;
+    position: absolute;
+    margin-bottom: 5px;
+    width: 60rem;
+    height:6rem;
+    font-size: 20px;
+
+    display: block;
+
+
+ }
+ 
+.main-button{
+    display: flex;
+    float: left;
+    gap:-5px;
+    position: absolute;
+    margin-top: -25rem;
+  
+
+}
+.main-btn-1 {
+width: 150px;
+height: 50px;
+border-radius: 5px;
+font-size: 25px;
+display: flex;
+align-items: center;
+background-color: white;
+gap:10px;
+border-color:rgba(255, 255, 255, 0.952);
+margin-left: 60px;
+
+}
+.main-btn-1:hover{
+    background-color:rgba(255, 255, 255, 0.597);
+   
+
+}
+
+.main-btn-2 {
+    font-size: 20px;
+    width:220px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgba(165, 155, 155, 0.815);
+    color:white;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    border-color:rgba(165, 155, 155, 0.815);
+    margin-left: 10px;
+}
+.main-btn-2:hover{
+    background-color:rgba(255, 255, 255, 0.381);
+
+}
+.gr-play{
+ font-size: 20px;
+ padding-left: 20px;
+}
+.md-more{
+    padding-left: 10px;
+    font-size: 30px;
+    
+}
+.age-btn {
+padding-left: 83.1rem;
+padding-top: 28rem;
+position: absolute;
+}
+
+.age-button{
+    height: 40px;
+    width:90px;
+    background-color:unset;
+    border-color:aliceblue;
+    color:white;
+    float:left;
+    border-right: 1px;
+    border-left: 4px solid white;
+    
+   
+}
+
+

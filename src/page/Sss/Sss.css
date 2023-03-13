@@ -1,0 +1,199 @@
+
+/*HEADER */
+.header {
+    background-color: black;
+    height: 80px;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    
+}
+.header.logo {
+    margin:30px;
+    padding-left:70px;   
+    
+}
+
+
+
+.help1 {
+    font-size: 18px;
+    color:white;
+    float: left;
+    text-decoration: none;
+    white-space: nowrap;
+    height: 20px;
+}
+
+ .button {
+   padding-left:35rem ;
+   width: 700px;
+   height: 35px;
+   display: flex;
+   gap: 5px; /* Butonlar arası boşluk  bırakmaya yarar*/
+
+  
+}
+.sign {
+    background-color: black;
+    color:white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    width: 140px;
+    height: 30px;
+    font-size: 12px;
+    margin-left: 15rem;
+}
+.sign:hover {
+    background-color: #d5d4d1;
+    color:black;
+}
+.sign-1 {
+    background-color: red;
+    color:white;
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+    margin-left: 1rem;
+}
+.sign-1:hover {
+    background-color:#cb1d1d;
+    color:white;
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  MENU*/
+.menu{
+    
+    background-color: white;
+}
+.title{
+    padding-top: 20px;
+    padding-bottom: 55px;
+    padding-left: 140px;
+    font-size:25px;
+}
+.image{
+    padding-top: 0px;
+    width: 56rem;
+    height:33rem;
+    padding-left: 140px;
+}
+
+.paragraf{
+    
+    padding-left: 140px;
+    font-size: 17px;
+    font-family:sans-serif;
+    line-height: 30px;
+}
+.hr {
+    margin-right: 500px;
+    margin-left: 140px;
+    border-bottom: 1px solid #d5d4d1;
+
+}
+.title-1 {
+    padding-top: 20px;
+    
+}
+
+.image_inline {
+    width: 56rem;
+    height:33rem;
+    padding-left: 140px;
+}
+.boolen{
+    padding-left: 500px;
+    height: 5rem;
+    
+    
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  FOOTER */
+
+.footer {
+    background-color:black;
+    color:black;
+    margin-top:0px;;
+    padding-top: 15px;
+    padding-left: 100px;
+    height:20rem;
+    color:white;
+    background: linear-gradient(10deg,rgba(229,9,20,0) 58%,#e50914 128%),#000
+    
+}
+.title1 {
+    font-size: 20px;
+    font-weight:bold;
+    margin-top: 20px;
+    padding-left: 40px;
+   
+}
+
+.btn {
+display: flex;
+gap:15px;
+padding-left: 22rem;
+margin-top: -30px;
+
+}
+ .btn1 {
+    background-color: white;
+    width: 150px;
+    font-weight: bolder;
+    border-width: 1px;
+    align-items: center;
+    border-radius: 5px;
+    height: 40px;
+     font-size: 15px;
+    
+ }
+ .btn1:hover{
+    background-color:#d5d4d1;
+ }
+ .footer-hr{
+   margin-top: 30px;
+   width: 80rem;
+   margin-left: 40px;
+ }
+ .footer-2 {
+    height: 22rem;
+    padding-left: 40px;
+
+ }
+ .select{ 
+    padding-top: 40px;
+ }
+ .select1 {
+   
+    height: 50px;
+    width:200px;
+    font-size: 20px;
+    color:#d5d4d1;
+    background-color: #2b2b2a;
+ }
+
+
+ .footer-links{
+    display: flex;
+    gap:20px;
+    padding-top: 30px;
+    margin-right: 60px;
+    
+ }
+
+ .links {
+    list-style: none; 
+   
+ }
+ .lnk {
+    color:#d5d4d1;
+    text-decoration: none;
+    
+ }
+ .lnk:hover {
+   text-decoration:underline;
+ }
+
